@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Inverted Globe</title>
+  </head>
+  <body>
+    <canvas id="globe" aria-label="Map viewed from inside the Earth"></canvas>
+    <div id="search-container">
+      <input type="text" id="city-search" placeholder="Jump to a city..." autocomplete="off" />
+      <div id="city-results"></div>
+    </div>
+    <div id="attribution"><a href="https://www.openstreetmap.org/copyright">© OpenStreetMap contributors</a>, <a href="https://www.geonames.org/">GeoNames</a>, <a href="https://github.com/bovine3dom/inverted-globe">bovine3dom</a></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
