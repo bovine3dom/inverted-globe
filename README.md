@@ -1,6 +1,6 @@
 # Inverted Globe
 
-A Three.js map viewed from inside a sphere.
+A Three.js map viewed from inside a sphere. [View here](https://o.blanthorn.com/inverted-globe)
 
 ```sh
 bun install
